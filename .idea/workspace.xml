@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f1d005a-f2d7-4e4e-948e-65b4fc8f4212" name="Default Changelist" comment="Exercised java project (Classes, objects, reference to object, instance of classes)">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2f1d005a-f2d7-4e4e-948e-65b4fc8f4212" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AnimalRescuer/AppTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AnimalRescuer/AppTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +61,16 @@
       <updated>1567850310274</updated>
       <workItem from="1567850328208" duration="2100000" />
       <workItem from="1568113215352" duration="434000" />
-      <workItem from="1568113667989" duration="4649000" />
+      <workItem from="1568113667989" duration="5294000" />
     </task>
+    <task id="LOCAL-00001" summary="Exercised java project (Classes, objects, reference to object, instance of classes)">
+      <created>1568118357452</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568118357452</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

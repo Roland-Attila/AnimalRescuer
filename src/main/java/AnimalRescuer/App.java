@@ -31,6 +31,11 @@ public class App
         veterinarian.name = "Istvan";
         veterinarian.specialization = "Veterinary";
 
+        Game game = new Game();
+        game.adopter = "Andrei";
+        game.dog = "Rexi";
+        game.veterinarian = "Istvan";
+
 
 
 
