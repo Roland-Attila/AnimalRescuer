@@ -13,5 +13,9 @@ public class Animal {
     String race;
     String rival;
     boolean listener;
+    Adopter adopter;
+    Adopter budget;
+    Adopter height;
+
 
 }
