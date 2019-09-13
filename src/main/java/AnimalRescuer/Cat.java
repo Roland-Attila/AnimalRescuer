@@ -1,0 +1,7 @@
+package AnimalRescuer;
+
+public class Cat extends Animal {
+
+    Animal aggresiveCat;
+
+}

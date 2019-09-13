@@ -13,6 +13,8 @@ public class Animal {
     String race;
     String rival;
     boolean listener;
+
+//    has-a relationship
     Adopter adopter;
     Adopter budget;
     Adopter height;

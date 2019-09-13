@@ -8,6 +8,8 @@ public class Adopter {
     double height;
     double weight;
     boolean smoker;
+
+//    has-a relationship
     Animal dog;
     Animal preferredRecreationalActivityName;
     Animal favouriteFood;

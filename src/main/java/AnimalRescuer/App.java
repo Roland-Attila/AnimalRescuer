@@ -19,6 +19,12 @@ public class App
         dog.rival = "Pitbull";
         dog.listener = true;
 
+        Animal cat = new Cat();
+        cat.age = 3;
+        cat.name = "Jinx";
+        cat.race = "siamese";
+        cat.listener = false;
+
         Adopter adopter = new Adopter();
         adopter.name = "Andrei";
         adopter.budget = 450.50;
