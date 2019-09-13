@@ -9,7 +9,7 @@ public class Adopter {
     double weight;
     boolean smoker;
 
-//    has-a relationship
+    //    has-a relationship
     Animal dog;
     Animal preferredRecreationalActivityName;
     Animal favouriteFood;

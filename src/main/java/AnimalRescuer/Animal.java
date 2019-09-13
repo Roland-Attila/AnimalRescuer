@@ -14,10 +14,9 @@ public class Animal {
     String rival;
     boolean listener;
 
-//    has-a relationship
+    //    has-a relationship
     Adopter adopter;
     Adopter budget;
     Adopter height;
-
 
 }

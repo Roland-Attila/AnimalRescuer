@@ -2,10 +2,8 @@ package AnimalRescuer;
 
 import java.time.LocalDate;
 
-public class App
-{
-    public static void main(String[] args)
-    {
+public class App {
+    public static void main(String[] args) {
         Animal dog = new Animal();
         dog.name = "Rexi";
         dog.age = 4;
@@ -33,7 +31,7 @@ public class App
         adopter.weight = 85.8;
         adopter.smoker = false;
 
-        AnimalFood food = new AnimalFood();
+        AnimalFood food = new AnimalFood("Porkchop");
         food.name = "Porkchop";
         food.price = 25.5;
         food.quantity = 7;
@@ -44,7 +42,7 @@ public class App
         food.storage = "Dry Place, Room Temperature";
         food.soft = false;
 
-        RecreationalActivity fun = new RecreationalActivity();
+        RecreationalActivity fun = new RecreationalActivity("Mount Chillard");
         fun.name = "Mount Chillard";
         fun.activityDuration = 2;
         fun.altitude = 800;
