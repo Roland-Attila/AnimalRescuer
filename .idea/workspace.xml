@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f1d005a-f2d7-4e4e-948e-65b4fc8f4212" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Adopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Adopter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/AnimalFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/AnimalFood.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/RecreationalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/RecreationalActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -85,7 +83,7 @@
       <workItem from="1567850328208" duration="2100000" />
       <workItem from="1568113215352" duration="434000" />
       <workItem from="1568113667989" duration="12096000" />
-      <workItem from="1568357026589" duration="15925000" />
+      <workItem from="1568357026589" duration="17034000" />
     </task>
     <task id="LOCAL-00001" summary="Exercised java project (Classes, objects, reference to object, instance of classes)">
       <created>1568118357452</created>
@@ -143,7 +141,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568378800423</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors)">
+      <created>1568396260137</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1568396260137</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,6 +171,7 @@
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes)" />
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes) [added more variables]" />
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance)" />
+    <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors)" />
   </component>
 </project>

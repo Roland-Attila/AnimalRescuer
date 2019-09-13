@@ -14,4 +14,9 @@ public class Adopter {
     Animal preferredRecreationalActivityName;
     Animal favouriteFood;
 
+    public Adopter (String name) {
+        this.name = "Andrei";
+        this.age = 27;
+    }
+
 }

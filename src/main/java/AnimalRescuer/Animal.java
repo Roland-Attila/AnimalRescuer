@@ -19,4 +19,9 @@ public class Animal {
     Adopter budget;
     Adopter height;
 
+    public Animal(String name) {
+        this.name = "Rexi";
+        this.race = "Labrador";
+    }
+
 }

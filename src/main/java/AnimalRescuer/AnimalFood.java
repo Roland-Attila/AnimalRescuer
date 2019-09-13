@@ -16,7 +16,7 @@ public class AnimalFood {
     boolean soft;
 
     public AnimalFood(String name) {
-        this.name = "Porkchop";
+        this.name = name;
         this.expirationDate = LocalDate.of(2019, 10, 11);
         this.storage = "Dry Place, Room Temperature";
         this.price = 25.5;
