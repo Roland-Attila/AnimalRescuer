@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Adopter {
+public class Adopter extends Humans {
 
     String name;
     double budget;

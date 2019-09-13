@@ -1,8 +1,8 @@
 package AnimalRescuer;
 
 public class Game {
-    String adopter;
-    String dog;
-    String veterinarian;
+    Veterinarian Istvan;
+    Adopter Andrei;
+    Animal Rexi;
 
 }

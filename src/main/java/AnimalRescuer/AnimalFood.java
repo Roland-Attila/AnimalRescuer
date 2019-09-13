@@ -1,15 +1,21 @@
 package AnimalRescuer;
 
+
+import java.time.LocalDate;
+
 public class AnimalFood {
 
     String name;
     double price;
     int quantity;
-    String expiringDate;
     int stockAvailability;
     double ageRecommendation;
+    LocalDate expirationDate;
     double weightRecommendation;
     String storage;
     boolean soft;
+
+
+
 
 }

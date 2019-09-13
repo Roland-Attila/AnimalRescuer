@@ -1,5 +1,7 @@
 package AnimalRescuer;
 
+import java.time.LocalDate;
+
 public class App
 {
     public static void main(String[] args)
@@ -25,16 +27,16 @@ public class App
         adopter.weight = 85.8;
         adopter.smoker = false;
 
-        AnimalFood type = new AnimalFood();
-        type.name = "Porkchop";
-        type.price = 25.5;
-        type.quantity = 7;
-        type.expiringDate = "java.time.LocalDateTime";
-        type.stockAvailability = 5;
-        type.ageRecommendation = 4.8;
-        type.weightRecommendation = 45;
-        type.storage = "Dry Place, Room Temperature";
-        type.soft = false;
+        AnimalFood food = new AnimalFood();
+        food.name = "Porkchop";
+        food.price = 25.5;
+        food.quantity = 7;
+        food.expirationDate = LocalDate.of(2019, 10, 11);
+        food.stockAvailability = 5;
+        food.ageRecommendation = 4.8;
+        food.weightRecommendation = 45;
+        food.storage = "Dry Place, Room Temperature";
+        food.soft = false;
 
         RecreationalActivity fun = new RecreationalActivity();
         fun.name = "Mount Chillard";
@@ -42,7 +44,7 @@ public class App
         fun.altitude = 800;
         fun.numberOfAnimals = 3;
         fun.type = "Run and Rest";
-
+// gata
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.name = "Istvan";
         veterinarian.specialization = "Veterinary";
@@ -52,9 +54,6 @@ public class App
         veterinarian.workProgram = 23.00;
 
         Game game = new Game();
-        game.adopter = "Andrei";
-        game.dog = "Rexi";
-        game.veterinarian = "Istvan";
 
 
 
