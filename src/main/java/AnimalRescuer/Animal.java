@@ -14,6 +14,4 @@ public class Animal {
     String rival;
     boolean listener;
 
-
-
 }

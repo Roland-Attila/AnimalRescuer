@@ -1,6 +1,6 @@
 package AnimalRescuer;
 
-public class Adopter extends Humans {
+public class Adopter {
 
     String name;
     double budget;
@@ -8,8 +8,6 @@ public class Adopter extends Humans {
     double height;
     double weight;
     boolean smoker;
-
-
 
 
 }

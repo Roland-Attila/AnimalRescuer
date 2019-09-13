@@ -8,8 +8,4 @@ public class RecreationalActivity {
     int numberOfAnimals;
     double altitude;
 
-
-
-
-
 }

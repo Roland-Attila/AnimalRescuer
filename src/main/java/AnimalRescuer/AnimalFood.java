@@ -15,7 +15,4 @@ public class AnimalFood {
     String storage;
     boolean soft;
 
-
-
-
 }

@@ -44,7 +44,7 @@ public class App
         fun.altitude = 800;
         fun.numberOfAnimals = 3;
         fun.type = "Run and Rest";
-// gata
+
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.name = "Istvan";
         veterinarian.specialization = "Veterinary";
@@ -54,18 +54,6 @@ public class App
         veterinarian.workProgram = 23.00;
 
         Game game = new Game();
-
-
-
-
-
-
-
-
-
-
-
-
 
     }
 }
