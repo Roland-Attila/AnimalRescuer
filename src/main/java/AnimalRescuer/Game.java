@@ -1,7 +1,7 @@
 package AnimalRescuer;
 
 public class Game {
-    Veterinarian Istvan;
+    Veterinarian name;
     Adopter Andrei;
     Animal Rexi;
 
