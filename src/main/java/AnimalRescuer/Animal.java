@@ -8,20 +8,14 @@ public class Animal {
     double hungryLevel;
     double moodLevel;
     String favouriteFood;
-    String preferredRecreationalActivityName;
+    String preferredRecreationalActivity;
     double happinessLevel;
     String race;
     String rival;
     boolean listener;
 
-    //    has-a relationship
-    Adopter adopter;
-    Adopter budget;
-    Adopter height;
-
     public Animal(String name) {
-        this.name = "Rexi";
-        this.race = "Labrador";
+        this.name = name;
     }
 
 }

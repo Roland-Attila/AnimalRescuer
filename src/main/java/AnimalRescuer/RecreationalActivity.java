@@ -9,8 +9,7 @@ public class RecreationalActivity {
     double altitude;
 
     public RecreationalActivity(String name) {
-        this.name = "Mount Chillard";
-        this.activityDuration = 2;
+        this.name = name;
     }
 
 }
