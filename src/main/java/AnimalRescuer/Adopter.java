@@ -1,7 +1,8 @@
 package AnimalRescuer;
 
-public class Adopter extends Dog{
+public class Adopter {
 
+    String name;
     double budget;
     int age;
     double height;
@@ -10,6 +11,6 @@ public class Adopter extends Dog{
     Dog dog;
 
     public Adopter (String name) {
-        super(name);
+        this.name = name;
     }
 }
