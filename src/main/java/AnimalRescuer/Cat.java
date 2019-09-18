@@ -7,6 +7,6 @@ public class Cat extends Animal {
     String climbing;
 
     public Cat(String name) {
-        super(name);
+        super("Jinx", 3, 6);
     }
 }

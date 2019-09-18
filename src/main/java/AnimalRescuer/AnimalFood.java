@@ -15,8 +15,11 @@ public class AnimalFood {
     String storage;
     boolean soft;
 
-    public AnimalFood(String name) {
+    public AnimalFood(String name, double price, LocalDate expirationDate, String storage) {
         this.name = name;
+        this.price = 25.5;
+        this.expirationDate = LocalDate.of(2019, 10, 11);
+        this.storage = "Dry Place, Room Temperature";
     }
 
 }

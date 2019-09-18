@@ -10,7 +10,10 @@ public class Adopter {
     boolean smoker;
     Dog dog;
 
-    public Adopter (String name) {
+    public Adopter(String name, double budget, int age) {
         this.name = name;
+        this.budget = 450.50;
+        this.age = 27;
     }
+
 }

@@ -14,8 +14,9 @@ public class Animal {
     String rival;
     boolean listener;
 
-    public Animal(String name) {
-        this.name = name;
+    public Animal(String name, int age, double hungryLevel) {
+        this.name = "animal";
+        this.age = 1;
+        this.hungryLevel = 10.0;
     }
-
 }

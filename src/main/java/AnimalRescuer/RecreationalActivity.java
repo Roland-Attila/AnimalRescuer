@@ -8,8 +8,9 @@ public class RecreationalActivity {
     int numberOfAnimals;
     double altitude;
 
-    public RecreationalActivity(String name) {
+    public RecreationalActivity(String name, int activityDuration) {
         this.name = name;
+        this.activityDuration = 2;
     }
 
 }
