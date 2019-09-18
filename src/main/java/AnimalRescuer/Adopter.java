@@ -7,8 +7,7 @@ public class Adopter extends Dog{
     double height;
     double weight;
     boolean smoker;
-    Dog bone;
-    Dog dogHouse;
+    Dog dog;
 
     public Adopter (String name) {
         super(name);

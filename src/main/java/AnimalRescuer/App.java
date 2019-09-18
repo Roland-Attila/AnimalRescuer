@@ -4,6 +4,7 @@ import java.time.LocalDate;
 
 public class App {
     public static void main(String[] args) {
+
         Animal animal = new Animal("animal");
         animal.age = 1;
         animal.healthLevel = 10.0;
@@ -16,26 +17,31 @@ public class App {
         animal.rival = "rival";
         animal.listener = false;
 
-        Animal dog = new Animal("Rexi");
+        Dog dog = new Dog("Rexi");
         dog.age = 5;
         dog.healthLevel = 8;
         dog.hungryLevel = 7;
         dog.moodLevel = 7;
         dog.favouriteFood = "Cooked Chicken";
         dog.preferredRecreationalActivity = "Go to Camp";
+        dog.bark = "wouf";
+        dog.smellCancer = "Prostate Cancer";
         dog.happinessLevel = 8;
         dog.race = "Labrador";
         dog.rival = "Pitbull";
         dog.listener = true;
 
-        Animal cat = new Cat("Jinx");
+        Cat cat = new Cat("Jinx");
         cat.age = 3;
         cat.healthLevel = 9;
         cat.hungryLevel = 6;
         cat.moodLevel = 7;
         cat.favouriteFood = "Fish";
         cat.preferredRecreationalActivity = "Go to beach";
-        cat.happinessLevel = 8;
+        cat.happinessLevel = 7;
+        cat.eyeColor = "Green";
+        cat.meows = "Miau";
+        cat.climbing = "Vertical Surfaces";
         cat.rival = "dog";
         cat.race = "siamese";
         cat.listener = false;

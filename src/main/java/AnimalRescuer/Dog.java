@@ -2,9 +2,8 @@ package AnimalRescuer;
 
 public class Dog extends Animal {
 
-    int bone = 1;
-    int sticks = 3;
-    int dogHouse = 1;
+    String bark;
+    String smellCancer;
 
     public Dog(String name) {
         super(name);

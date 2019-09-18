@@ -8,7 +8,7 @@ public class Veterinarian {
     int experience;
     String location;
     double workProgram;
-    Cat collar;
+    Cat cat;
 
     public Veterinarian(String name) {
         this.name = name;

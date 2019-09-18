@@ -2,8 +2,9 @@ package AnimalRescuer;
 
 public class Cat extends Animal {
 
-    int offspring = 4;
-    int collar = 1;
+    String meows;
+    String eyeColor;
+    String climbing;
 
     public Cat(String name) {
         super(name);
