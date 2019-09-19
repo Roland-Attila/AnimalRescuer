@@ -3,6 +3,7 @@ package AnimalRescuer;
 import java.time.LocalDate;
 
 public class App {
+
     public static void main(String[] args) {
 
         Animal animal = new Animal("animal", 1, 10.0);

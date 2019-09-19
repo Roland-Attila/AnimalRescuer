@@ -19,7 +19,7 @@ public class Cat extends Animal {
     }
 
     public Cat(String name, int age, double hungryLevel) {
-        super("Jinx", 3, 6);
+        super(name, age, hungryLevel);
         this.setName(name);
         this.setAge(age);
         this.setHungryLevel(hungryLevel);

@@ -14,7 +14,7 @@ public class Dog extends Animal {
     }
 
     public Dog(String name, int age, double hungryLevel) {
-        super("Rexi", 5, 7);
+        super(name, age, hungryLevel);
         this.setName(name);
         this.setAge(age);
         this.setHungryLevel(hungryLevel);
