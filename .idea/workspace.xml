@@ -9,6 +9,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Cat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/RecreationalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/RecreationalActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Veterinarian.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Veterinarian.java" afterDir="false" />
     </list>
@@ -89,7 +90,7 @@
       <workItem from="1568113215352" duration="434000" />
       <workItem from="1568113667989" duration="12096000" />
       <workItem from="1568357026589" duration="17034000" />
-      <workItem from="1568628258360" duration="34624000" />
+      <workItem from="1568628258360" duration="38215000" />
     </task>
     <task id="LOCAL-00001" summary="Exercised java project (Classes, objects, reference to object, instance of classes)">
       <created>1568118357452</created>
@@ -189,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568835850707</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading)">
+      <created>1568891042669</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1568891042669</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
