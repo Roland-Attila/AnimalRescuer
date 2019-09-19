@@ -15,6 +15,10 @@ public class AnimalFood {
     private String storage;
     private boolean soft;
 
+    public String getName() {
+        return name;
+    }
+
     public void setName(String name) {
         this.name = name;
     }

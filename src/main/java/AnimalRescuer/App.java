@@ -55,15 +55,17 @@ public class App {
         adopter.setSmoker(false);
         adopter.setDog(dog);
 
-        AnimalFood animalfood = new AnimalFood("Porkchop", 25.5, LocalDate.of(2019, 10, 11), "Dry Place, Room Temperature");
-        animalfood.setPrice(25.5);
-        animalfood.setQuantity(7);
-        animalfood.setExpirationDate(LocalDate.of(2019, 10, 11));
-        animalfood.setStockAvailability(5);
-        animalfood.setAgeRecommendation(4.8);
-        animalfood.setWeightRecommendation(45);
-        animalfood.setStorage("Dry Place, Room Temperature");
-        animalfood.setSoft(false);
+        AnimalFood animalFood = new AnimalFood("Porkchop", 25.5, LocalDate.of(2019, 10, 11), "Dry Place, Room Temperature");
+        animalFood.setPrice(25.5);
+        animalFood.setQuantity(7);
+        animalFood.setExpirationDate(LocalDate.of(2019, 10, 11));
+        animalFood.setStockAvailability(5);
+        animalFood.setAgeRecommendation(4.8);
+        animalFood.setWeightRecommendation(45);
+        animalFood.setStorage("Dry Place, Room Temperature");
+        animalFood.setSoft(false);
+
+        adopter.animalFeed(animalFood, dog);
 
         RecreationalActivity fun = new RecreationalActivity("Mount Chillard", 2);
         fun.setActivityDuration(2);
@@ -80,6 +82,8 @@ public class App {
         veterinarian.setCat(cat);
 
         Game game = new Game();
+
+        System.out.println();
 
     }
 }

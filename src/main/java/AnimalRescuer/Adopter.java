@@ -44,4 +44,9 @@ public class Adopter {
         this.age = age;
     }
 
+    public void animalFeed(AnimalFood animalFood, Dog dog) {
+        System.out.println(name + " just gave some " + animalFood.getName() + " food to " + dog.getName() + ".");
+        dog.setHungryLevel(7 - 1);
+    }
+
 }

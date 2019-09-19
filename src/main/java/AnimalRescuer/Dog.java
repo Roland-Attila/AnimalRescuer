@@ -4,6 +4,11 @@ public class Dog extends Animal {
 
     private String bark;
     private String smellCancer;
+    private String name;
+
+    public String getName() {
+        return name;
+    }
 
     public void setBark(String bark) {
         this.bark = bark;
@@ -15,7 +20,7 @@ public class Dog extends Animal {
 
     public Dog(String name, int age, double hungryLevel) {
         super(name, age, hungryLevel);
-        this.setName(name);
+        this.name = name;
         this.setAge(age);
         this.setHungryLevel(hungryLevel);
     }
