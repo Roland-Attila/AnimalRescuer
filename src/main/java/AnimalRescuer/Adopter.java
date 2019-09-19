@@ -12,8 +12,8 @@ public class Adopter {
 
     public Adopter(String name, double budget, int age) {
         this.name = name;
-        this.budget = 450.50;
-        this.age = 27;
+        this.budget = budget;
+        this.age = age;
     }
 
 }

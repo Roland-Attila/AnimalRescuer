@@ -17,9 +17,9 @@ public class AnimalFood {
 
     public AnimalFood(String name, double price, LocalDate expirationDate, String storage) {
         this.name = name;
-        this.price = 25.5;
-        this.expirationDate = LocalDate.of(2019, 10, 11);
-        this.storage = "Dry Place, Room Temperature";
+        this.price = price;
+        this.expirationDate = expirationDate;
+        this.storage = storage;
     }
 
 }

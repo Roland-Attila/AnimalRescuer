@@ -10,7 +10,7 @@ public class RecreationalActivity {
 
     public RecreationalActivity(String name, int activityDuration) {
         this.name = name;
-        this.activityDuration = 2;
+        this.activityDuration = activityDuration;
     }
 
 }

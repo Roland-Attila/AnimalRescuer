@@ -17,7 +17,7 @@ public class App {
         animal.rival = "rival";
         animal.listener = false;
 
-        Dog dog = new Dog("Rexi");
+        Dog dog = new Dog("Rexi", 5, 7);
         dog.age = 5;
         dog.healthLevel = 8;
         dog.hungryLevel = 7;
@@ -31,10 +31,10 @@ public class App {
         dog.rival = "Pitbull";
         dog.listener = true;
 
-        Cat cat = new Cat("Jinx");
+        Cat cat = new Cat("Jinx", 3, 6.6);
         cat.age = 3;
         cat.healthLevel = 9;
-        cat.hungryLevel = 6;
+        cat.hungryLevel = 6.6;
         cat.moodLevel = 7;
         cat.favouriteFood = "Fish";
         cat.preferredRecreationalActivity = "Go to beach";
