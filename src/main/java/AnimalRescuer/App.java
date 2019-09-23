@@ -73,6 +73,8 @@ public class App {
         fun.setNumberOfAnimals(3);
         fun.setType("Run and Rest");
 
+        adopter.recreationalActivity(dog, fun);
+
         Veterinarian veterinarian = new Veterinarian("Istvan", "Veterinary", 15, "15th Desert road", 23.00);
         veterinarian.setSpecialization("Veterinary");
         veterinarian.setAge(45);
