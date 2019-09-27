@@ -34,6 +34,10 @@ public class Animal {
         this.moodLevel = moodLevel;
     }
 
+    public double getMoodLevel() {
+        return moodLevel;
+    }
+
     public void setFavouriteFood(String favouriteFood) {
         this.favouriteFood = favouriteFood;
     }
@@ -62,5 +66,10 @@ public class Animal {
         this.name = name;
         this.age = age;
         this.hungryLevel = hungryLevel;
+    }
+
+    public void pet() {
+        setMoodLevel(getMoodLevel() + 3.4);
+        System.out.println("After " + name + " has been pet by owner, his mood level changed to: " + getMoodLevel());
     }
 }

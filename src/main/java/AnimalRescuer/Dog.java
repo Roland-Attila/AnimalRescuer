@@ -44,4 +44,9 @@ public class Dog extends Animal {
         this.setAge(age);
         this.setHungryLevel(hungryLevel);
     }
+
+    public void pet() {
+        setMoodLevel(getMoodLevel() + 4.2);
+        System.out.println("After " + name + " has been pet by owner, he started to wag his tail.");
+    }
 }
