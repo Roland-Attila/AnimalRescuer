@@ -18,7 +18,7 @@ public class App {
         animal.setRival("rival");
         animal.setListener(false);
 
-        animal.pet();
+        animal.mood();
 
         Dog dog = new Dog("Rexi", 5, 7);
         dog.setAge(5);
@@ -34,9 +34,10 @@ public class App {
         dog.setRival("Pitbull");
         dog.setListener(true);
 
-        dog.pet();
+        dog.mood();
 
         Cat cat = new Cat("Jinx", 3, 6.6);
+        cat.setName("Jinx");
         cat.setAge(3);
         cat.setHealthLevel(9);
         cat.setHungryLevel(6.6);
@@ -51,7 +52,7 @@ public class App {
         cat.setRace("siamese");
         cat.setListener(false);
 
-        cat.pet();
+        cat.mood();
 
         Adopter adopter = new Adopter("Andrei", 450.50, 27);
         adopter.setBudget(450.50);

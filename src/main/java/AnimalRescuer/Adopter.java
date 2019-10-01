@@ -55,5 +55,4 @@ public class Adopter {
         dog.setMoodLevel(dog.getMoodLevel() + 3);
         System.out.println(dog.getName() + "'s" + " mood level after having fun with " + name + ": " + dog.getMoodLevel());
     }
-
 }

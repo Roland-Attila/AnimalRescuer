@@ -18,6 +18,10 @@ public class Animal {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
     public void setAge(int age) {
         this.age = age;
     }
@@ -28,6 +32,10 @@ public class Animal {
 
     public void setHungryLevel(double hungryLevel) {
         this.hungryLevel = hungryLevel;
+    }
+
+    public double getHungryLevel() {
+        return hungryLevel;
     }
 
     public void setMoodLevel(double moodLevel) {
@@ -68,7 +76,7 @@ public class Animal {
         this.hungryLevel = hungryLevel;
     }
 
-    public void pet() {
+    public void mood() {
         setMoodLevel(getMoodLevel() + 3.4);
         System.out.println("After " + name + " has been pet by owner, his mood level changed to: " + getMoodLevel());
     }
