@@ -61,5 +61,4 @@ public class AnimalFood {
         this.expirationDate = expirationDate;
         this.storage = storage;
     }
-
 }
