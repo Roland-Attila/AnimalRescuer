@@ -47,12 +47,16 @@ public class Adopter {
     public void animalFeed(AnimalFood animalFood, Dog dog) {
         System.out.println(name + " just gave some " + animalFood.getName() + " food to " + dog.getName() + ".");
         dog.setHungryLevel(dog.getHungryLevel() - 2);
-        System.out.println("Rexi's hunger level after he's been fed: " + dog.getHungryLevel());
+        System.out.println(dog.getName() + "'s" + " hunger level after he's been fed: " + dog.getHungryLevel());
+        dog.setHungryLevel(dog.getHungryLevel() - 1);
+        System.out.println(dog.getName() + "'s" + " new hunger level: " + dog.getHungryLevel());
     }
 
     public void recreationalActivity(Dog dog, RecreationalActivity fun) {
         System.out.println(name + " and " + dog.getName() + " went out to play on " + fun.getName() + " for a couple of hours.");
         dog.setMoodLevel(dog.getMoodLevel() + 3);
         System.out.println(dog.getName() + "'s" + " mood level after having fun with " + name + ": " + dog.getMoodLevel());
+        dog.setHappinessLevel(dog.getMoodLevel() + dog.getHappinessLevel());
+        System.out.println(dog.getName() + "'s" + " happiness level: " + dog.getHappinessLevel());
     }
 }

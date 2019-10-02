@@ -58,6 +58,10 @@ public class Animal {
         this.happinessLevel = happinessLevel;
     }
 
+    public double getHappinessLevel() {
+        return happinessLevel;
+    }
+
     public void setRace(String race) {
         this.race = race;
     }
