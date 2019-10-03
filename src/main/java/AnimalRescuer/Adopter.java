@@ -45,6 +45,9 @@ public class Adopter {
     }
 
     public void animalFeed(AnimalFood animalFood, Dog dog) {
+        if (animalFood.getName().equals(dog.getFavouriteFood())) {
+            dog.setHappinessLevel(dog.getHappinessLevel() + dog.getMoodLevel() + 1);
+        }
         System.out.println(name + " just gave some " + animalFood.getName() + " food to " + dog.getName() + ".");
         dog.setHungryLevel(dog.getHungryLevel() - 2);
         System.out.println(dog.getName() + "'s" + " hunger level after he's been fed: " + dog.getHungryLevel());
@@ -53,6 +56,11 @@ public class Adopter {
     }
 
     public void recreationalActivity(Dog dog, RecreationalActivity fun) {
+        if (fun.getName().equals(dog.getPreferredRecreationalActivity())) {
+            dog.setHappinessLevel(dog.getHappinessLevel() + 2);
+        } else {
+            dog.setHappinessLevel(dog.getHappinessLevel() + 1);
+        }
         System.out.println(name + " and " + dog.getName() + " went out to play on " + fun.getName() + " for a couple of hours.");
         dog.setMoodLevel(dog.getMoodLevel() + 3);
         System.out.println(dog.getName() + "'s" + " mood level after having fun with " + name + ": " + dog.getMoodLevel());

@@ -50,8 +50,16 @@ public class Animal {
         this.favouriteFood = favouriteFood;
     }
 
+    public String getFavouriteFood() {
+        return favouriteFood;
+    }
+
     public void setPreferredRecreationalActivity(String preferredRecreationalActivity) {
         this.preferredRecreationalActivity = preferredRecreationalActivity;
+    }
+
+    public String getPreferredRecreationalActivity() {
+        return preferredRecreationalActivity;
     }
 
     public void setHappinessLevel(double happinessLevel) {

@@ -35,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithms" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -102,7 +102,8 @@
       <workItem from="1569235439684" duration="5121000" />
       <workItem from="1569252236382" duration="722000" />
       <workItem from="1569587984292" duration="9468000" />
-      <workItem from="1569835431224" duration="13738000" />
+      <workItem from="1569835431224" duration="14428000" />
+      <workItem from="1570099450021" duration="4090000" />
     </task>
     <task id="LOCAL-00001" summary="Exercised java project (Classes, objects, reference to object, instance of classes)">
       <created>1568118357452</created>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570010182931</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing)">
+      <created>1570016197296</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1570016197296</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -287,6 +295,7 @@
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, using Methods)" />
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting)" />
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism)" />
+    <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing)" />
   </component>
 </project>
