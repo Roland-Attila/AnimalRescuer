@@ -61,4 +61,14 @@ public class AnimalFood {
         this.expirationDate = expirationDate;
         this.storage = storage;
     }
+
+    @Override
+    public String toString() {
+        return "AnimalFood{" +
+                "name='" + name + '\'' +
+                ", price=" + price +
+                ", expirationDate=" + expirationDate +
+                ", storage='" + storage + '\'' +
+                '}';
+    }
 }

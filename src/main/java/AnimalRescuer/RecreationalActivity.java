@@ -24,6 +24,10 @@ public class RecreationalActivity {
         this.activityDuration = activityDuration;
     }
 
+    public int getActivityDuration() {
+        return activityDuration;
+    }
+
     public void setNumberOfAnimals(int numberOfAnimals) {
         this.numberOfAnimals = numberOfAnimals;
     }
@@ -36,5 +40,4 @@ public class RecreationalActivity {
         this.name = name;
         this.activityDuration = activityDuration;
     }
-
 }

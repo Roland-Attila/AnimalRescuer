@@ -86,5 +86,6 @@ public class App {
         veterinarian.setCat((Cat) cat);
 
         Game game = new Game();
+        game.start();
     }
 }
