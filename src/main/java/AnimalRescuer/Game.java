@@ -18,20 +18,22 @@ public class Game {
     }
 
     private void initFood() {
-        int foodList = 3;
+        int foodList = 1;
         System.out.println("Available food: ");
         for (int i = 0; i < foodList; i++) {
             AnimalFood food = new AnimalFood("Pedigree", 23,
-                    LocalDate.of(2020, 1, 12), "Dry");
-            AnimalFood food1 = new AnimalFood("Rocco", 18.5,
-                    LocalDate.of(2020, 4, 5), "In Fridge");
-            AnimalFood food2 = new AnimalFood("Royal Canin", 23.3,
-                    LocalDate.of(2021, 3, 13), "Dry Place");
-
-            System.out.println(availableFood);
+                    LocalDate.of(2020, 1, 12), "Dry Place");
+            System.out.println(food);
             availableFood.add(food);
+            AnimalFood food1 = new AnimalFood("Rocco", 23.3,
+                    LocalDate.of(2019, 12, 13), "Room Temperature");
+            System.out.println(food1);
             availableFood.add(food1);
+            AnimalFood food2 = new AnimalFood("Royal Canin", 25.4,
+                    LocalDate.of(2020, 4, 21), "In the fridge");
+            System.out.println(food2);
             availableFood.add(food2);
+            System.out.println("\n");
         }
     }
 
