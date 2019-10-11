@@ -43,6 +43,10 @@ public class AnimalFood {
         this.expirationDate = expirationDate;
     }
 
+    public LocalDate getExpirationDate() {
+        return expirationDate;
+    }
+
     public void setWeightRecommendation(double weightRecommendation) {
         this.weightRecommendation = weightRecommendation;
     }

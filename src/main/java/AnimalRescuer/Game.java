@@ -14,27 +14,31 @@ public class Game {
     public void start() {
         initFood();
         initActivities();
+        displayFood();
         displayActivities();
     }
 
     private void initFood() {
         int foodList = 1;
-        System.out.println("Available food: ");
         for (int i = 0; i < foodList; i++) {
             AnimalFood food = new AnimalFood("Pedigree", 23,
                     LocalDate.of(2020, 1, 12), "Dry Place");
-            System.out.println(food);
-            availableFood.add(food);
             AnimalFood food1 = new AnimalFood("Rocco", 23.3,
                     LocalDate.of(2019, 12, 13), "Room Temperature");
-            System.out.println(food1);
-            availableFood.add(food1);
             AnimalFood food2 = new AnimalFood("Royal Canin", 25.4,
                     LocalDate.of(2020, 4, 21), "In the fridge");
-            System.out.println(food2);
+            availableFood.add(food);
+            availableFood.add(food1);
             availableFood.add(food2);
-            System.out.println("\n");
         }
+    }
+
+    private void displayFood() {
+        System.out.println("Available food: ");
+        for (AnimalFood foodlist : availableFood) {
+            System.out.println(foodlist);
+        }
+        System.out.println("\n");
     }
 
     private void initActivities() {
