@@ -26,6 +26,10 @@ public class Animal {
         this.age = age;
     }
 
+    public int getAge() {
+        return age;
+    }
+
     public void setHealthLevel(double healthLevel) {
         this.healthLevel = healthLevel;
     }

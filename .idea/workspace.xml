@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f1d005a-f2d7-4e4e-948e-65b4fc8f4212" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/AnimalFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/AnimalFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../racingGame" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -106,7 +106,8 @@
       <workItem from="1570099450021" duration="22935000" />
       <workItem from="1570296063068" duration="1869000" />
       <workItem from="1570461872246" duration="666000" />
-      <workItem from="1570788399071" duration="8141000" />
+      <workItem from="1570788399071" duration="9639000" />
+      <workItem from="1571284602614" duration="9241000" />
     </task>
     <task id="LOCAL-00001" summary="Exercised java project (Classes, objects, reference to object, instance of classes)">
       <created>1568118357452</created>
@@ -290,7 +291,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570299826413</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements,added for loop)">
+      <created>1570805292215</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1570805292215</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
