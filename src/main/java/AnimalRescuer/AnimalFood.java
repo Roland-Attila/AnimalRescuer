@@ -66,6 +66,10 @@ public class AnimalFood {
         this.storage = storage;
     }
 
+    public AnimalFood(String name) {
+        this.name = name;
+    }
+
     @Override
     public String toString() {
         return "AnimalFood{" +

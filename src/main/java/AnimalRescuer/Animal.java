@@ -92,6 +92,9 @@ public class Animal {
         this.hungryLevel = hungryLevel;
     }
 
+    public Animal() {
+    }
+
     public void mood() {
         setMoodLevel(getMoodLevel() + 3.4);
         System.out.println("After " + name + " has been pet by owner, his mood level changed to: " + getMoodLevel());

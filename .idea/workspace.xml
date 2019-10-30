@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2f1d005a-f2d7-4e4e-948e-65b4fc8f4212" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Adopter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Adopter.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/AnimalFood.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/AnimalFood.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Cat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Dog.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnimalRescuer/RecreationalActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnimalRescuer/RecreationalActivity.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +41,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../orgfasttrackit" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -107,7 +114,8 @@
       <workItem from="1570296063068" duration="1869000" />
       <workItem from="1570461872246" duration="666000" />
       <workItem from="1570788399071" duration="9639000" />
-      <workItem from="1571284602614" duration="9241000" />
+      <workItem from="1571284602614" duration="77543000" />
+      <workItem from="1572269528684" duration="42859000" />
     </task>
     <task id="LOCAL-00001" summary="Exercised java project (Classes, objects, reference to object, instance of classes)">
       <created>1568118357452</created>
@@ -298,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570805292215</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements,added for loop, finalizing the project)">
+      <created>1571321327947</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1571321327947</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -330,6 +345,7 @@
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing)" />
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements)" />
     <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements,added for loop)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements,added for loop)" />
+    <MESSAGE value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements,added for loop, finalizing the project)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercised java project (Classes, objects, reference to object, instance of classes, inheritance, Constructors and constructor overloading, Encapsulation, method overriting, added polymorphism, incrementing, added if-else statements,added for loop, finalizing the project)" />
   </component>
 </project>

@@ -24,7 +24,7 @@ public class App {
         dog.setHealthLevel(8);
         dog.setHungryLevel(7);
         dog.setMoodLevel(7);
-        dog.setFavouriteFood("Cooked Chicken");
+        dog.setFavouriteFood("Rocco");
         dog.setPreferredRecreationalActivity("Go to Camp");
         ((Dog) dog).setBark("wouf");
         ((Dog) dog).setSmellCancer("Prostate Cancer");
@@ -35,7 +35,6 @@ public class App {
         dog.mood();
 
         Animal cat = new Cat("Jinx", 3, 6.6);
-        cat.setName("Jinx");
         cat.setAge(3);
         cat.setHealthLevel(9);
         cat.setHungryLevel(6.6);

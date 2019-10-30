@@ -25,6 +25,9 @@ public class Cat extends Animal {
         this.setHungryLevel(hungryLevel);
     }
 
+    public Cat() {
+    }
+
     @Override
     public void mood() {
         setMoodLevel(getMoodLevel() + 2.7);

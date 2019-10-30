@@ -40,4 +40,11 @@ public class RecreationalActivity {
         this.name = name;
         this.activityDuration = activityDuration;
     }
+
+    @Override
+    public String toString() {
+        return "RecreationalActivity{" +
+                "name='" + name + '\'' +
+                '}';
+    }
 }
