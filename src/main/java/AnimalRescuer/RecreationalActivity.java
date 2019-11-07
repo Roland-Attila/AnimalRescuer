@@ -41,6 +41,14 @@ public class RecreationalActivity {
         this.activityDuration = activityDuration;
     }
 
+    public RecreationalActivity(String name) {
+        this.name = name;
+    }
+
+    public RecreationalActivity(int numberOfAnimals) {
+        this.numberOfAnimals = numberOfAnimals;
+    }
+
     @Override
     public String toString() {
         return "RecreationalActivity{" +

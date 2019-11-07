@@ -1,6 +1,5 @@
 package AnimalRescuer;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
@@ -14,6 +13,7 @@ public class Game {
     private AnimalFood animalFood;
     private List<AnimalFood> availableFood = new ArrayList<>();
     private RecreationalActivity[] availableActivities = new RecreationalActivity[3];
+    private RecreationalActivity fun;
     private String foodName;
     private String activityName;
 
@@ -34,13 +34,13 @@ public class Game {
         while (winnerNotKnkow && loserNotKnown) {
             System.out.println("Beginning new round...");
             for (int round = 1; round <= totalRounds; round++) {
-                System.out.println("Round " + round);
+                System.out.println("\n" + "Round " + round);
                 requireFeeding();
                 if (dog.getFavouriteFood().equals(foodName)) {
                     requireActivity();
                     if (dog.getPreferredRecreationalActivity().equals(activityName)) {
                         winnerNotKnkow = false;
-                        System.out.println("Congratulations! " + adopter.getName() + " have won the game.");
+                        System.out.println("\n" + "Congratulations! " + adopter.getName() + " have won the game.");
                         break;
                     }
                 }
@@ -49,7 +49,7 @@ public class Game {
                     requireFeeding();
                     if (!dog.getFavouriteFood().equals(foodName)) {
                         loserNotKnown = false;
-                        System.out.println("Mission failed! Game lost!");
+                        System.out.println("\n" + "Mission failed! Game lost!");
                         break;
                     }
                 }
@@ -60,12 +60,9 @@ public class Game {
     private void initFood() {
         int foodList = 1;
         for (int i = 0; i < foodList; i++) {
-            AnimalFood food = new AnimalFood("Pedigree", 23,
-                    LocalDate.of(2020, 1, 12), "Dry Place");
-            AnimalFood food1 = new AnimalFood("Rocco", 23.3,
-                    LocalDate.of(2019, 12, 13), "Room Temperature");
-            AnimalFood food2 = new AnimalFood("Royal Canin", 25.4,
-                    LocalDate.of(2020, 4, 21), "In the fridge");
+            AnimalFood food = new AnimalFood("Pedigree");
+            AnimalFood food1 = new AnimalFood("Rocco");
+            AnimalFood food2 = new AnimalFood("Royal Canin");
             availableFood.add(food);
             availableFood.add(food1);
             availableFood.add(food2);
@@ -74,8 +71,8 @@ public class Game {
 
     private void displayFood() {
         System.out.println("Available food: ");
-        for (AnimalFood foodlist : availableFood) {
-            System.out.println(foodlist);
+        for (AnimalFood animalFood : availableFood) {
+            System.out.println("-  " + animalFood.getName());
         }
         System.out.println("\n");
     }
@@ -85,7 +82,7 @@ public class Game {
         availableActivities[0] = fun;
         RecreationalActivity fun1 = new RecreationalActivity("Explore your neighborhood", 1);
         availableActivities[1] = fun1;
-        RecreationalActivity fun2 = new RecreationalActivity("Hunting Prey", 1);
+        RecreationalActivity fun2 = new RecreationalActivity("Hunting prey", 1);
         availableActivities[2] = fun2;
     }
 
@@ -93,7 +90,7 @@ public class Game {
         System.out.println("Available activities: ");
         for (int i = 0; i < availableActivities.length; i++) {
             if (availableActivities[i] != null) {
-                System.out.println(availableActivities[i] + " for a duration of: " +
+                System.out.println("-  " + availableActivities[i].getName() + " for a duration of: " +
                         availableActivities[i].getActivityDuration() + " h.");
             }
         }
@@ -115,11 +112,12 @@ public class Game {
     }
 
     private void initRescuer() {
-        Adopter adopter = new Adopter();
+        adopter = new Adopter();
+        adopter.setName("You");
         System.out.println("Please enter your name.");
         Scanner scanner = new Scanner(System.in);
         String name;
-        name = scanner.nextLine();
+        name = scanner.nextLine().trim();
         try {
             String numOnly = name.replaceAll("\\p{Alpha}", "");
             double numVal = Double.valueOf(numOnly);
@@ -135,7 +133,7 @@ public class Game {
         Animal dog = new Dog();
         Animal cat = new Cat();
         Scanner scanner = new Scanner(System.in);
-        String name = scanner.nextLine();
+        String name = scanner.nextLine().trim();
         try {
             String numOnly = name.replaceAll("\\p{Alpha}", "");
             double numVal = Double.valueOf(numOnly);
@@ -154,24 +152,23 @@ public class Game {
         displayFood();
         Scanner scanner = new Scanner(System.in);
         foodName = scanner.nextLine();
+        System.out.println("Selected: " + foodName);
         animalFood = new AnimalFood(foodName);
-        List<String> availableFoodNames = new ArrayList<>();
-        try {
-            for (AnimalFood animalFood : availableFood) {
-                availableFoodNames.add(animalFood.getName());
-            }
-            if ((!availableFoodNames.contains(foodName))) {
-                System.out.println(foodName + " is not available as a food type in this game.");
-                requireFeeding();
-            }
-        } catch (InputMismatchException e) {
-        }
+        List<String> foodlist = new ArrayList<>();
         dog = new Dog();
         dog.setName("Rexi");
         dog.setFavouriteFood("Rocco");
         adopter = new Adopter();
         adopter.setName("You");
-        adopter.animalFeed(animalFood, (Dog) dog);
+        for (AnimalFood animalFood : availableFood) {
+            foodlist.add(animalFood.getName());
+        }
+        if ((!foodlist.contains(foodName))) {
+            System.out.println(foodName + " is not available as a food type in this game.");
+            requireFeeding();
+        } else {
+            adopter.animalFeed(animalFood, (Dog) dog);
+        }
     }
 
     private void requireActivity() {
@@ -179,14 +176,23 @@ public class Game {
         displayActivities();
         Scanner scanner = new Scanner(System.in);
         activityName = scanner.nextLine();
-        RecreationalActivity fun = new RecreationalActivity(activityName, 2);
+        fun = new RecreationalActivity(activityName);
         System.out.println("Selected: " + activityName + "\n");
-        adopter.recreationalActivity((Dog) dog, fun);
         dog = new Dog();
         dog.setName("Rexi");
-        dog.setPreferredRecreationalActivity("Hunting Prey");
-        Adopter adopter = new Adopter();
+        dog.setPreferredRecreationalActivity("Hunting prey");
+        adopter = new Adopter();
         adopter.setName("You");
+        for (RecreationalActivity fun : availableActivities) {
+        }
+        if (availableActivities[0].getName().equals(activityName) |
+                availableActivities[1].getName().equals(activityName) |
+                availableActivities[2].getName().equals(activityName)) {
+            adopter.recreationalActivity((Dog) dog, fun);
+        } else {
+            System.out.println(activityName + " is not available as a recreational activity in this game.");
+            requireActivity();
+        }
     }
 
     public void setVeterinarian(Veterinarian veterinarian) {

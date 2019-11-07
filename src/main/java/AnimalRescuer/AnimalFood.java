@@ -74,9 +74,6 @@ public class AnimalFood {
     public String toString() {
         return "AnimalFood{" +
                 "name='" + name + '\'' +
-                ", price=" + price +
-                ", expirationDate=" + expirationDate +
-                ", storage='" + storage + '\'' +
                 '}';
     }
 }

@@ -48,6 +48,10 @@ public class Adopter {
         this.age = age;
     }
 
+    public Adopter(String name) {
+        this.name = name;
+    }
+
     public Adopter() {
     }
 
