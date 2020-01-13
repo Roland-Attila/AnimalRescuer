@@ -26,6 +26,5 @@ public class Dog extends Animal {
     @Override
     public void mood() {
         setMoodLevel(getMoodLevel() + 4.2);
-        System.out.println("After " + getName() + " has been pet by owner, he started to wag his tail.");
     }
 }

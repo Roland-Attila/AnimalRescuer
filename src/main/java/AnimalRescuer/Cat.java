@@ -31,6 +31,5 @@ public class Cat extends Animal {
     @Override
     public void mood() {
         setMoodLevel(getMoodLevel() + 2.7);
-        System.out.println("After " + getName() + " has been pet by owner, he began to purr.");
     }
 }

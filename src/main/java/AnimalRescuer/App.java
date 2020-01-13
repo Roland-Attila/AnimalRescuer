@@ -67,14 +67,16 @@ public class App {
         animalFood.setWeightRecommendation(45);
         animalFood.setStorage("Dry Place, Room Temperature");
         animalFood.setSoft(false);
-        adopter.animalFeed(animalFood, (Dog) dog);
+//        adopter.animalFeed(animalFood, (Dog) dog);
+//        information hidden for game to start
 
         RecreationalActivity fun = new RecreationalActivity("Mount Chillard", 2);
         fun.setActivityDuration(2);
         fun.setAltitude(800);
         fun.setNumberOfAnimals(3);
         fun.setType("Run and Rest");
-        adopter.recreationalActivity((Dog) dog, fun);
+//        adopter.recreationalActivity((Dog) dog, fun);
+//        information hidden for game to start
 
         Veterinarian veterinarian = new Veterinarian("Istvan", "Veterinary", 15, "15th Desert road", 23.00);
         veterinarian.setSpecialization("Veterinary");

@@ -20,8 +20,6 @@ public class Game {
     public void start() {
         initFood();
         initActivities();
-        displayFood();
-        displayActivities();
         initAnimal();
         initRescuer();
         nameAnimal();
@@ -154,16 +152,16 @@ public class Game {
         foodName = scanner.nextLine();
         System.out.println("Selected: " + foodName);
         animalFood = new AnimalFood(foodName);
-        List<String> foodlist = new ArrayList<>();
+        List<String> foodList = new ArrayList<>();
         dog = new Dog();
         dog.setName("Rexi");
         dog.setFavouriteFood("Rocco");
         adopter = new Adopter();
         adopter.setName("You");
         for (AnimalFood animalFood : availableFood) {
-            foodlist.add(animalFood.getName());
+            foodList.add(animalFood.getName());
         }
-        if ((!foodlist.contains(foodName))) {
+        if ((!foodList.contains(foodName))) {
             System.out.println(foodName + " is not available as a food type in this game.");
             requireFeeding();
         } else {
